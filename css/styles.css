@@ -1,0 +1,118 @@
+body {
+  background-image: url(../images/wooden-background.jpg);
+  background-repeat: no-repeat;
+  background-position: right 80%;
+
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.imglogo {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0px 30px;
+}
+
+nav {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  /* para quitar biñetas directamente */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  color: rgb(238, 196, 117);
+}
+
+.banner {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0%;
+}
+
+/* selector decendiente */
+nav ul li {
+  /* para quitar biñetas en decendencia */
+  list-style-type: none;
+  /* transition, van prefijos para que funcionen con otros buscadores
+      el 0.8s son segundos que dura el efecto, all es todo. */
+  transition: 0.8s all;
+}
+
+/* animacion en la barra */
+nav ul li:hover {
+  background-color: rgba(238, 134, 37, 0.507);
+}
+
+nav li {
+  border-right: 1px solid rgb(238, 196, 117);
+  padding: 20px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.featured{
+    padding: 0 10px;
+    background-color: rgba(211, 112, 32, 0.801);
+    /* over...sirve cuando el contenido se desborda, esta cortao tapa el contenido sobrante */
+    overflow: hidden;
+
+}
+/* em..  tamaño de fuente relativo */
+
+.fp-video, .ft-receta{
+    padding:  ;    
+    
+
+}
+
+.ft-receta{
+     width: 38%;
+     font-size: 0.9em;
+     background-color: rgba(134, 75, 33, 0.878);
+     padding: 5px;
+     vertical-align: top;
+    
+}
+
+.boton-container{
+    text-align: center;
+    background-color: rgba(237, 64, 11, 0.576);
+}
+.boton-container a{
+    text-decoration: none;
+    color: rgb(229, 240, 229);
+}
+
+.boton-container:hover{
+    background-color: deeppink;
+} 
+
+.boton{
+    padding: 15px;
+}
